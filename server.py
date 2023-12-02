@@ -33,7 +33,7 @@ api.representations['application/json'] = output_json
 # class Mahasiswa
 class Mahasiswa(Resource):
     def get(self):
-        limit = request.args.get('limit')
+        limit = request.args.get('limit', default=100, type=int)
         data = get_query(limit)
         return { 'data': data }
 
