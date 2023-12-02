@@ -1,0 +1,4 @@
+flask
+simplexml
+flask_restful
+psycopg2
