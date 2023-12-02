@@ -1,4 +1,4 @@
 flask
-simplexml
+python-simplexml
 flask_restful
 psycopg2
